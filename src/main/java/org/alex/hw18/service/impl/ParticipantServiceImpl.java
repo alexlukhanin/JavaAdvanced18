@@ -13,7 +13,7 @@ import java.util.List;
 public class ParticipantServiceImpl  implements ParticipantService {
 
     @Autowired
-    ParticipantDao participantDao;
+    private ParticipantDao participantDao;
 
 
     @Override
